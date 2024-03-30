@@ -58,7 +58,7 @@ Detects edges in image. Image is converted to grayscale, than threshold is appli
 Pixels with value greater than threshold become white, other become black. 
 
 #### Gaussian Blur (-blur sigma)
-[Гауссово размытие](https://ru.wikipedia.org/wiki/Размытие_по_Гауссу),
+[Gaussian blur](https://ru.wikipedia.org/wiki/Размытие_по_Гауссу),
 param – sigma.
 
 #### Flash (-flash x y radius brightness min_brightness angle (yet not supported, can be any integer))
