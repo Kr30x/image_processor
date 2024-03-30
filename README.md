@@ -39,37 +39,37 @@ Crops image to given width and height, counting from top-left.
 
 If widht of height is greater than source image width and height, image is cropped to available area.
 
-![[lenna_crop.bmp]]
+![](https://github.com/Kr30x/image_processor/blob/main/test_script/data/lenna_crop.bmp?raw=true)
 #### Grayscale (-gs)
 
 Converts image to grayscale.
 
-![[lenna_gs.bmp]]
+![](https://github.com/Kr30x/image_processor/blob/main/test_script/data/lenna_gs.bmp?raw=true)
 #### Negative (-neg)
 
 Converts image to its Negative.
 
-![[lenna_neg.bmp]]
+![](https://github.com/Kr30x/image_processor/blob/main/test_script/data/lenna_neg.bmp?raw=true)
 #### Sharpening (-sharp)
 
 Sharpens image. 
 
-![[lenna_sharp.bmp]]
+![](https://github.com/Kr30x/image_processor/blob/main/test_script/data/lenna_sharp.bmp?raw=true)
 
-![[lenna_sharp_sharp.bmp]]
+![](https://github.com/Kr30x/image_processor/blob/main/test_script/data/lenna_sharp_sharp.bmp?raw=true)
 #### Edge Detection (-edge threshold)
 
 Detects edges in image. Image is converted to grayscale, than threshold is applied.
 
 Pixels with value greater than threshold become white, other become black. 
-![[lenna_edge.bmp]]
+![](https://github.com/Kr30x/image_processor/blob/main/test_script/data/lenna_edge.bmp?raw=true)
 #### Gaussian Blur (-blur sigma)
 [Gaussian blur](https://ru.wikipedia.org/wiki/Размытие_по_Гауссу),
 param – sigma.
 
-![[lenna_blur.bmp]]
+![](https://github.com/Kr30x/image_processor/blob/main/test_script/data/lenna_blur.bmp?raw=true)
 #### Flash (-flash x y radius brightness min_brightness angle (yet not supported, can be any integer))
 
 Draws flash on image in position (x, y) counting from bottom-right with given radius and brightness. All pixels with brightness lower than min_brightness become black. 
 
-![[lenna_flash.bmp]]
+![](https://github.com/Kr30x/image_processor/blob/main/test_script/data/lenna_flash.bmp?raw=true)
