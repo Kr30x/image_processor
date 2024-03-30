@@ -39,28 +39,37 @@ Crops image to given width and height, counting from top-left.
 
 If widht of height is greater than source image width and height, image is cropped to available area.
 
+![[lenna_crop.bmp]]
 #### Grayscale (-gs)
 
 Converts image to grayscale.
 
+![[lenna_gs.bmp]]
 #### Negative (-neg)
 
 Converts image to its Negative.
 
+![[lenna_neg.bmp]]
 #### Sharpening (-sharp)
 
 Sharpens image. 
 
+![[lenna_sharp.bmp]]
+
+![[lenna_sharp_sharp.bmp]]
 #### Edge Detection (-edge threshold)
 
 Detects edges in image. Image is converted to grayscale, than threshold is applied.
 
 Pixels with value greater than threshold become white, other become black. 
-
+![[lenna_edge.bmp]]
 #### Gaussian Blur (-blur sigma)
 [Gaussian blur](https://ru.wikipedia.org/wiki/Размытие_по_Гауссу),
 param – sigma.
 
+![[lenna_blur.bmp]]
 #### Flash (-flash x y radius brightness min_brightness angle (yet not supported, can be any integer))
 
 Draws flash on image in position (x, y) counting from bottom-right with given radius and brightness. All pixels with brightness lower than min_brightness become black. 
+
+![[lenna_flash.bmp]]
